@@ -1,5 +1,5 @@
 apiVersion: v2
-name: cinema
+name: cinemagoapplication
 description: A Helm chart to deploy Cinema project in Kubernetes
 # chart type
 type: application
@@ -9,16 +9,16 @@ version: 0.2.0
 appVersion: "v2.1.0"
 dependencies:
   - condition: mongodb.enabled
-    name: mongodb
+name: cinemagoapplication
     repository: https://charts.bitnami.com/bitnami
     version: 10.4.0
-  - name: users
+name: cinemagoapplication
     version: 0.x.x
-  - name: movies
+name: cinemagoapplication
     version: 0.x.x
-  - name: showtimes
+name: cinemagoapplication
     version: 0.x.x
-  - name: bookings
+name: cinemagoapplication
     version: 0.x.x
-  - name: website
+name: cinemagoapplication
     version: 0.x.x
